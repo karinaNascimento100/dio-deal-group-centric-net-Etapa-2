@@ -7,6 +7,16 @@ namespace dio_deal_group_centric_net_Etapa_2.Models
 {
     public class Pessoa
     {
+        public Pessoa()
+        {
+        }
+        public Pessoa(string nome, string sobrenome, int idade)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Idade = idade;
+        }
+
         private string _nome = string.Empty;
         private int _idade;
         public required string Nome
