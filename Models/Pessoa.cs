@@ -7,11 +7,41 @@ namespace dio_deal_group_centric_net_Etapa_2.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
+        private string _nome = string.Empty;
+        private int _idade;
+        public required string Nome
+        {
+            get => _nome.ToUpper();
+
+            set
+            {
+                if (value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio.");
+                }
+                _nome = value;
+            }
+        }
+
+        public required string Sobrenome { get; set; }
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
+        public int Idade
+        {
+            get => _idade;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor que zero.");
+                }
+                _idade = value;
+            }
+        }
+
         public void Apresentar()
         {
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+            Console.WriteLine($"Nome: {Nome} {Sobrenome}, Idade: {Idade}");
         }
     }
 }

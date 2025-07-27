@@ -12,3 +12,4 @@ C:\Users\Karina\projetos\dio-deal-group-centric-net-Etapa 2\obj\Debug\net9.0\ref
 C:\Users\Karina\projetos\dio-deal-group-centric-net-Etapa 2\obj\Debug\net9.0\dio-deal-group-centric-net-Etapa 2.pdb
 C:\Users\Karina\projetos\dio-deal-group-centric-net-Etapa 2\obj\Debug\net9.0\dio-deal-group-centric-net-Etapa 2.genruntimeconfig.cache
 C:\Users\Karina\projetos\dio-deal-group-centric-net-Etapa 2\obj\Debug\net9.0\ref\dio-deal-group-centric-net-Etapa 2.dll
+C:\Users\Karina\projetos\dio-deal-group-centric-net-Etapa 2\obj\Debug\net9.0\dio-deal-group-centric-net-Etapa 2.sourcelink.json
